@@ -1,0 +1,11 @@
+dropwizard:
+  build: .
+  command: java -jar microservice-0.0.1-SNAPSHOT.jar server hello-world.yml
+  ports:
+   - "5000:5000"
+  volumes:
+   - .:/code
+  links:
+   - redis
+redis:
+  image: dropimage
