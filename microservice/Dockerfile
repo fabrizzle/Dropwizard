@@ -9,6 +9,8 @@ WORKDIR /code
 
 RUN java -jar microservice-0.0.1-SNAPSHOT.jar server hello-world.yml
 
+EXPOSE 8080
+EXPOSE 8081
 
 
 
