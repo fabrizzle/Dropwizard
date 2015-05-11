@@ -3,7 +3,7 @@ FROM mminderbinder/java-jdk:oracle-java8
 MAINTAINER Milo Minderbinder <fabrizio@consist.de>
 
 ADD target /code
-ADD hello-world.yml /code
+ADD hello-world.yml /code/hello-world.yml
 WORKDIR /code
 
 EXPOSE 8081
