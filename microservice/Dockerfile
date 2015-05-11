@@ -8,7 +8,7 @@ WORKDIR /code
 
 EXPOSE 8081
 EXPOSE 8080
-CMD ["java -jar","microservice-0.0.1-SNAPSHOT.jar","server hello-world.yml"]
+RUN java -jar microservice-0.0.1-SNAPSHOT.jar server hello-world.yml
 
 
 
