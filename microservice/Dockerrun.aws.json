@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "mminderbinder/java-jdk:oracle-java8"
+    },
+    "Ports": [
+        { 
+            "ContainerPort": "8080"
+        },
+    {
+      "ContainerPort": "8081"
+    }
+    ]
+}
